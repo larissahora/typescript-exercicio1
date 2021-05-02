@@ -90,4 +90,26 @@ function filmeEscolhido() {
         divFilme.innerHTML = "<img class='imgFilme' src='./assets/filmes-romance/a-batida-perfeita.jpg' height='398px' width='498px'>";
         divSinop.innerHTML = "Em A Batida Perfeita, uma famosa cantora e sua assistente lotada de trabalho se deparam com uma escolha que que pode alterar o curso de suas carreiras.";
     }
+    else if (selFilm.value == 'Upgrade') {
+        console.log(selFilm.value);
+        let divFilme = <HTMLSelectElement>document.getElementById('d3');
+        let divSinop = <HTMLSelectElement>document.getElementById('d4'); 
+        divFilme.innerHTML = "<img class='imgFilme' src='./assets/filmes-ficcao-cientifica/upgrade.jpg' height='398px' width='498px'>";
+        divSinop.innerHTML = "O filme australiano de ficção científica, ação e suspense foi dirigido por Leigh Whannell e recebeu ótimas avaliações do público. A história é passada em um futuro distópico, quando o protagonista Grey Trace perde a sua esposa e fica com o corpo paralisado durante um assalto violento.       É então que ele recebe um chip neural, para recuperar os movimentos, e passa a dividir o corpo com uma inteligência artificial que também está em busca de vingança.";
+    }
+    else if (selFilm.value == 'Tenet') {
+        console.log(selFilm.value);
+        let divFilme = <HTMLSelectElement>document.getElementById('d3');
+        let divSinop = <HTMLSelectElement>document.getElementById('d4'); 
+        divFilme.innerHTML = "<img class='imgFilme' src='./assets/filmes-ficcao-cientifica/tenet.jpg' height='398px' width='498px'>";
+        divSinop.innerHTML = "O filme de ação e ficção científica dirigido por Christopher Nolan foi um dos maiores sucessos de 2020, com seu enredo e efeitos visuais que conquistaram os elogios da crítica especializada. O protagonista é um agente da CIA que recebe uma missão misteriosa de uma organização secreta chamada Tenet. De repente, ele descobre que tem que viajar no tempo para impedir uma nova guerra mundial.";
+    }
+    else if (selFilm.value == 'Ad Astra - Rumo às Estrelas') {
+        console.log(selFilm.value);
+        let divFilme = <HTMLSelectElement>document.getElementById('d3');
+        let divSinop = <HTMLSelectElement>document.getElementById('d4'); 
+        divFilme.innerHTML = "<img class='imgFilme' src='./assets/filmes-ficcao-cientifica/ad-astra.jpg' height='398px' width='498px'>";
+        divSinop.innerHTML = "Dirigido por James Gray, o drama de aventura e ficção científica foi um êxito com a crítica que destacou principalmente a atuação de Brad Pitt. O longa-metragem acompanha a viagem solitária de um astronauta que parte pelo universo em busca do pai que se perdeu, anos antes, durante uma expedição. Pelo caminho, ele descobre uma ameaça capaz de destruir a vida na Terra.";
+    }
+    
 }
